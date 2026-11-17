@@ -17,6 +17,11 @@ twitter_username: hectormoran
 theme: minima
 plugins:
   - jekyll-feed
+# --- Menú de navegación superior personalizado
+header_pages:
+  - about.md
+  - contacto.md
+  - proyectos/index.md
 # --- Ficheros que no deben publicarse
 exclude:
   - README.md
