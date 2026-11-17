@@ -1,0 +1,24 @@
+# --- Datos del sitio
+title: Apuntes de IAW
+author: Héctor Morán
+email: hmorann039@gmail.com
+description: >-
+  Blog de prácticas del módulo Implantación de Aplicaciones Web:
+  servidores web, contenedores y despliegue.
+lang: es
+timezone: Europe/Madrid
+# --- URLs (se ajustarán al desplegar en GitHub Pages más adelante)
+url: "https://hectormoran11.github.io"
+baseurl: "/miblog" # /miblog en producción, vacío en local si lo deseas
+# --- Redes sociales que muestra minima en el pie
+github_username: hectormoran11
+twitter_username: hectormoran
+# --- Tema y plugins
+theme: minima
+plugins:
+  - jekyll-feed
+# --- Ficheros que no deben publicarse
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
